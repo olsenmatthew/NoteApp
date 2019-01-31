@@ -11,10 +11,10 @@ import android.widget.NumberPicker;
 import android.widget.Toast;
 
 public class AddEditNoteActivity extends AppCompatActivity {
-    public static final String EXTRA_TITLE = "com.example.matthewolsen.architectureexample.EXTRA_TITLE";
-    public static final String EXTRA_DESCRIPTION = "com.example.matthewolsen.architectureexample.EXTRA_DESCRIPTION";
-    public static final String EXTRA_PRIORITY = "com.example.matthewolsen.architectureexample.EXTRA_PRIORITY";
-    public static final String EXTRA_ID = "com.example.matthewolsen.architectureexample.EXTRA_ID";
+    public static final String EXTRA_TITLE = "com.example.matthewolsen.noteapp.EXTRA_TITLE";
+    public static final String EXTRA_DESCRIPTION = "com.example.matthewolsen.noteapp.EXTRA_DESCRIPTION";
+    public static final String EXTRA_PRIORITY = "com.example.matthewolsen.noteapp.EXTRA_PRIORITY";
+    public static final String EXTRA_ID = "com.example.matthewolsen.noteapp.EXTRA_ID";
 
     private EditText editTextTitle;
     private EditText editTextDescription;
